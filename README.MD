@@ -2,4 +2,4 @@
 
 - Aquí encontrarás el ejercicio que se utilizo en la exposicion de Grid System y su infografia.
 
-#### By Edinson Camargo y Christopher Ramirez.
+#### By Edinson Camargo and Christopher Ramirez.

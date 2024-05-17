@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="background-color: rgb(27, 27, 27);">
+
+    <!-- ejercice 1 -->
+    <div class="container text-center" style="padding: 1rem;">
+        <div class="row">
+            <div class="col" style="background-color: whitesmoke;">Column</div>
+            <div class="col" style="background-color: red;">Column</div>
+            <div class="col" style="background-color: violet;">Column</div>
+        </div>
+    </div>
+
+    <!-- ejercice 2 -->
+    <div class="container text-center" style="padding: 1rem;">
+        <div class="row">
+            <div class="col" style="background-color: gray;">Column</div>
+            <div class="col-9" style="background-color: yellow;">col-9 </div>
+            <div class="col" style="background-color: green;">Column</div>
+        </div>
+    </div>
+
+    <!-- ejercice 1 -->
+    <div class="container text-center" style="padding: 1rem;">
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto" style="background-color: cyan;">col-md-auto</div>
+            <div class="col col-lg-2" style="background-color: white;">col col-lg-2</div>        
+            <div class="col col-lg-3" style="background-color: magenta;">col col-lg-3</div>
+            <div class="col-sm-5" style="background-color: maroon;">col-sm-5</div>
+        </div>
+    </div>
+
+    <!-- ejercice 4-->
+    <div class="container text-center" style="padding: 1rem;">
+        <div class="row">
+            <div class="col-sm-5" style="background-color: beige;">col-sm-5</div>          
+            <div class="col-sm-4" style="background-color: orange;">col-sm-4</div>
+            <div class="col-sm" style="background-color: aqua;">col-sm</div>
+        </div>
+    </div>
+
+    <!-- ejercice 5-->
+    <div class="container text-center" style="padding: 1rem;">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <!-- Apila las columnas en el móvil haciendo una de ancho completo y la otra de medio ancho. -->         
+        <div class="row">
+          <div class="col-md-8" style="background-color: bisque;">.col-md-8</div>
+          <div class="col-6 col-md-4" style="background-color: tomato;">.col-6 .col-md-4</div>
+        </div>
+      
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <!-- Las columnas comienzan con un ancho del 50 % en dispositivos móviles y aumentan hasta un 33,3 % de ancho en computadoras de escritorio. -->       
+        <div class="row">
+          <div class="col-6 col-md-4" style="background-color: rebeccapurple;">.col-6 .col-md-4</div>
+          <div class="col-6 col-md-4" style="background-color: goldenrod;">.col-6 .col-md-4</div>
+          <div class="col-6 col-md-4" style="background-color: royalblue;">.col-6 .col-md-4</div>
+        </div>
+      
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <!-- Las columnas siempre tienen un ancho del 50%, en dispositivos móviles y de escritorio. -->
+        <div class="row">
+          <div class="col-6" style="background-color: indianred;">.col-6</div>
+          <div class="col-6" style="background-color: plum;">.col-6</div>
+        </div>
+      </div>
+    
+    <!-- ejercice 6-->
+    <div class="container text-center" style="padding: 1rem;">
+        <div class="row row-cols-2">
+            <div class="col" style="background-color: cadetblue;">Column</div>          
+            <div class="col" style="background-color: darkgreen;">Column</div>
+            <div class="col" style="background-color: oldlace;">Column</div>
+            <div class="col" style="background-color: wheat;">Column</div> 
+        </div>
+    </div>  
+
+    <!-- ejercice 7-->
+    <div class="container text-center" style="padding: 1rem;">
+        <div class="row row-cols-3">      
+            <div class="col" style="background-color: chocolate;">Column</div>
+            <div class="col" style="background-color: pink;">Column</div>
+            <div class="col" style="background-color: purple;">Column</div>
+        </div>
+      </div>
+
+    <!-- ejercice 8-->
+    <div class="container text-center" style="padding: 1rem;">
+        <div class="row row-cols-4">      
+            <div class="col" style="background-color: rgb(146, 105, 105);">Column</div>
+            <div class="col-7" style="background-color: rgb(189, 189, 189);">Column</div>
+            <div class="col" style="background-color: gold;">Column</div>
+            <div class="col" style="background-color: rgb(122, 63, 3);">Column</div>
+        </div>
+    </div>
+
+    <!-- ejercice 9-->
+    <div class="container text-center" style="padding: 1rem;">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+          <div class="col" style="background-color: rebeccapurple;">Column</div>
+          <div class="col" style="background-color: palegoldenrod;">Column</div>
+          <div class="col" style="background-color: whitesmoke;">Column</div>
+          <div class="col" style="background-color: hotpink;">Column</div>
+        </div>
+    </div>
+      
+    <div class="container text-center" style="padding: 1rem;">
+      <div class="row">
+        <div class="col-sm-3" style="background-color: rgb(185, 102, 1);">
+          Level 1: .col-sm-3
+        </div>
+        <div class="col-sm-9" style="background-color: blueviolet;">
+          <div class="row">
+            <div class="col-7 col-sm-5" style="background-color: wheat;">
+              Level 2: .col-8 .col-sm-6
+            </div>
+            <div class="col-4 col-sm-6" style="background-color: turquoise;">
+              Level 2: .col-4 .col-sm-6
+              <div class="row">
+                  <div class="col-8 col-xs-12" style="background-color: lawngreen;">
+                    Level 3: .col-8 .col-xs
+                  </div>
+                  <div class="col-4 col-xs-12" style="background-color: rgb(122, 63, 3);">
+                    Level 3: .col-4 .col-xs
+              </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
